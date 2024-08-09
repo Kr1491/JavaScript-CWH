@@ -1,14 +1,13 @@
-console.log("Hello I am conditional tutori333l")
-
-let age = 425;
-
-const userInput = prompt("Enter>> ");
+console.log("Conditional Tutorial")
 
 
-if(userInput>= 50){
-  console.log("Number is greater than 55")
+userInput = prompt("Enter Number>> ")
+
+
+if (userInput>50){
+  console.log("Number is greater than 50")
 }
 
 else{
-  console.log("Number is less than 55")
+  console.log("Number is less than 50")
 }
