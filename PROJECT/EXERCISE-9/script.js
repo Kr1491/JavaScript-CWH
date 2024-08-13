@@ -5,7 +5,7 @@ let num1 = prompt("Num1>> ")
 
 num1 = Number(num1);
 let num2 = prompt("Num2>> ")
-num2 = Number(num2);
+num2 = Number(num2); 
 
 function sum(a,b) {
   let out = a+b;
