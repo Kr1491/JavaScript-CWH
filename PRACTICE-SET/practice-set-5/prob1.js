@@ -5,7 +5,6 @@ let b = [];
 for (let i = 0; i < a; i++) {
   let c = prompt(">>")
   b[i] = c;
-
 }
 
 console.log(b)

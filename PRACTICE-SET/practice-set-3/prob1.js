@@ -5,6 +5,6 @@ let obj = {
 }
 
 for (const key in obj) {
-    const element = obj[key];
-    console.log(element)
+  const element = obj[key];
+  console.log(element)
 }

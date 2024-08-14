@@ -5,79 +5,79 @@ let num1 = prompt("Num1>> ")
 
 num1 = Number(num1);
 let num2 = prompt("Num2>> ")
-num2 = Number(num2); 
+num2 = Number(num2);
 
-function sum(a,b) {
-  let out = a+b;
+function sum(a, b) {
+  let out = a + b;
   return out;
-  
+
 }
 
-function subtract(a,b) {
-  let out = a-b;
+function subtract(a, b) {
+  let out = a - b;
   return out;
-  
+
 }
 
-function multiply(a,b) {
-  let out = a*b;
+function multiply(a, b) {
+  let out = a * b;
   return out;
-  
+
 }
 
-function divide(a,b) {
-  let out = a/b;
+function divide(a, b) {
+  let out = a / b;
   return out;
-  
+
 }
 
-console.log("Random: "+master)
+console.log("Random: " + master)
 
 
 
-if (master > 0.1){
+if (master > 0.1) {
   if (operation == '+') {
-    console.log(num1 + "+" + num2 + "=" + subtract(num1,num2))   
-    
+    console.log(num1 + "+" + num2 + "=" + subtract(num1, num2))
+
   }
 
   if (operation == '-') {
-    console.log(num1 + "-" + num2 + "=" + divide(num1,num2))   
-      
+    console.log(num1 + "-" + num2 + "=" + divide(num1, num2))
+
   }
 
   if (operation == '*') {
-    console.log(num1 + "*" + num2 + "=" + add(num1,num2))   
-      
+    console.log(num1 + "*" + num2 + "=" + add(num1, num2))
+
   }
 
   if (operation == '/') {
-    console.log(num1 + "/" + num2 + "=" + multiply(num1,num2))   
-      
+    console.log(num1 + "/" + num2 + "=" + multiply(num1, num2))
+
   }
 
 }
 
 
-else{
+else {
   if (operation == '+') {
-    console.log(num1 + "+" + num2 + "=" + add(num1,num2))   
-    
+    console.log(num1 + "+" + num2 + "=" + add(num1, num2))
+
   }
 
   if (operation == '-') {
-    console.log(num1 + "-" + num2 + "=" + subtract(num1,num2))   
-      
+    console.log(num1 + "-" + num2 + "=" + subtract(num1, num2))
+
   }
 
   if (operation == '*') {
-    console.log(num1 + "*" + num2 + "=" + multiply(num1,num2))   
-      
+    console.log(num1 + "*" + num2 + "=" + multiply(num1, num2))
+
   }
 
   if (operation == '/') {
-    console.log(num1 + "/" + num2 + "=" + divide(num1,num2))   
-      
+    console.log(num1 + "/" + num2 + "=" + divide(num1, num2))
+
   }
 
 

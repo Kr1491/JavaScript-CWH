@@ -28,11 +28,11 @@ if (a <= 0.33) {
   first = "Crazy"
 }
 
-else if(a > 0.33 && a <=0.66){
+else if (a > 0.33 && a <= 0.66) {
   first = "Amazing"
 }
 
-else{
+else {
   first = "Fire"
 }
 
@@ -40,11 +40,11 @@ if (b <= 0.33) {
   second = "Engine"
 }
 
-else if(b > 0.33 && b <=0.66){
+else if (b > 0.33 && b <= 0.66) {
   second = "Foods"
 }
 
-else{
+else {
   second = "Garments"
 }
 
@@ -52,11 +52,11 @@ if (c <= 0.33) {
   third = "Bros"
 }
 
-else if(c > 0.33 && c <=0.66){
+else if (c > 0.33 && c <= 0.66) {
   third = "Limited"
 }
 
-else{
+else {
   third = "Hub"
 }
 

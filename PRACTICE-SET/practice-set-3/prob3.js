@@ -7,6 +7,6 @@ for (let i = 1; i <= tries; i++) {
   sum = userInput + sum;
 }
 
-let out = sum/5
+let out = sum / 5
 
-console.log("Mean of 5 numbers is: "+ out)
+console.log("Mean of 5 numbers is: " + out)
