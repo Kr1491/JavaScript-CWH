@@ -5,7 +5,6 @@ while (true) {
   if (output == correct_num) {
     console.log("Correct Number")
     break
-
   }
 
   else {
