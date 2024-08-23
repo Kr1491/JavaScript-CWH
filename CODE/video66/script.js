@@ -1,7 +1,5 @@
 let a = prompt("Enter>> ");
 
-
-
 if (a > 10) {
   document.body.style.backgroundColor = "green";
   document.body.style.containerName = "helo";
@@ -9,6 +7,4 @@ if (a > 10) {
 
 else if (a < 10) {
   document.body.style.backgroundColor = "red";
-
-
 }
